@@ -8,7 +8,7 @@ body {
 }
 
 div {
-    outline: 1px solid yellow;
+    outline: px solid yellow;
 }
 
 .logo {
@@ -44,4 +44,20 @@ div {
     margin-right: auto;
     margin-top: 20px;
     max-width: 920px;
+}
+
+.nav ol {
+    padding: 18px 10px;
+}
+
+.nav li {
+    border-right: 1px solid #D4B364;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+}
+
+.nav li:last-child {
+    border-right: none;
 }
