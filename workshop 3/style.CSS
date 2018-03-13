@@ -13,10 +13,17 @@
     height:200px;
     background-color:#0000FF;
     float: left;
-    text-shadow:200px, #aaa;
 }
 .container {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*start of work*/
+
+body {
+    background-color: #441E13;
+    
+    color: white
 }
