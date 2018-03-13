@@ -13,6 +13,7 @@
     height:200px;
     background-color:#0000FF;
     float: left;
+    text-shadow:200px, #aaa;
 }
 .container {
     width: 400px;
