@@ -36,3 +36,12 @@ div {
     margin-top: 30px;
     overflow: hidden; /* make the div grow to accommodate float child elements */
 }
+
+.nav {
+    background-color: rgba(0,0,0,0.25);
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 920px;
+}
