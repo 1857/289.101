@@ -53,13 +53,22 @@ body{
 
 .banner{
     background-color: #f06c64;
-    padding: 20px 0;
     text-align: center;
 }
 
 .banner img {
     max-width: 780px;
     width: 90%;
+}
+
+.services {
+    background-color: #FFFFFF;
+    height: 500px;
+    padding: 60px 40px;
+}
+
+.heading {
+    margin: 60px 40px
 }
 
 @media screen and (max-width:480px){
