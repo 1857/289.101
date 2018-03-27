@@ -33,3 +33,18 @@ body{
     font-size: 0.75rem;
     float: right;
 }
+
+.links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links a:hover{
+    color: #f06c64;
+}
+
+.samon {
+    color: #f06c64;
+}
