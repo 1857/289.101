@@ -5,3 +5,61 @@ body {
     background-color: cornflowerblue;
     height: 50px;
 }
+
+.green {
+    background-color: limegreen;
+    height: 150px;
+}
+
+.orange {
+   background-color: orange;
+}
+
+.red {
+   background-color: mediumvioletred;
+    height: 100px; 
+}
+
+
+.grey {
+   background-color: grey;
+    height: 120px; 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* sm */
+@media (min-width:576px){
+    body{
+        background-color: red;
+    }
+}
+
+/* md */
+@media (min-width:768px){
+    body{
+        background-color: green;
+    }
+    
+.orange {
+    height: 500px; 
+}
+}
+
+/* lg */
+@media (min-width:922px){
+    body{
+        background-color: orange;
+    }
+    
+    .red {
+        
+    }
+}
+
+/* xl */
+@media (min-width:1200px){
+    body{
+        background-color: purple;
+    }
+}
