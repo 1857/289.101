@@ -13,6 +13,8 @@ body {
 
 .orange {
    background-color: orange;
+    height: 400px;
+    padding-bottom: 20px;
 }
 
 .red {
@@ -22,43 +24,97 @@ body {
 
 
 .grey {
-   background-color: grey;
-    height: 120px; 
+   background-color: grey; 
+   width: 120px;
+    margin-left: 20px;
     margin-top: 20px;
-    margin-left: 10px;
+    
 }
 
 /* sm */
 @media (min-width:576px){
-    body{
-        background-color: red;
+   
+    .red {
+        height: 200px;
     }
+    
+    .orange {
+        height: 300px;
+    }
+    
+    .green {
+        height: 200px;
+    }
+    .grey {
+        margin-left: 20px;
+    
+    }
+    
 }
 
 /* md */
 @media (min-width:768px){
-    body{
-        background-color: green;
+   
+  .red {
+        height: 500px;
     }
     
-.orange {
+    .orange {
+        height: 500px;
+    }
+    
+    .green {
+        height: 200px;
+    }
+    
+    .grey {
+        
+    }
    
 }
 
 /* lg */
 @media (min-width:922px){
-    body{
-        background-color: orange;
+   
+    .red {
+        height: 500px;
     }
     
-    .red {
-        
+    .orange {
+        height: 500px;
     }
+    
+    .green {
+        height: 500px;
+    }
+    
+    .pink {
+        background-color: hotpink;
+        height: 60px;
+        margin-top: 20px;
+        margin-left:20px;
+    }
+
 }
 
 /* xl */
 @media (min-width:1200px){
-    body{
-        background-color: purple;
+   
+       .red {
+        height: 500px;
     }
+    
+    .orange {
+        height: 500px;
+    }
+    
+    .green {
+        height: 500px;
+    }
+    
+    .grey {
+        height: 60px;
+        margin-top: 20px;
+    }
+
 }
