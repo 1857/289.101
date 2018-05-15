@@ -11,16 +11,13 @@
             #blue {
                 background-color: blue;
             }
+            
         </style>
         
     </head>
     
     <body>
         
-        <script>
-            var reddiv = document.getElementById('red');
-        
-        </script>
         
         <div id="red">
             this is red div
@@ -30,6 +27,11 @@
             this is blue div
         </div>
         
+        <script>
+            var reddiv = document.getElementById('red');
+            reddiv.style.backgroundColor = 'green';
+        </script>
+
         
     </body>
 </html>
