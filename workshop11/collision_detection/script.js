@@ -14,7 +14,7 @@ var puck_x = 210;
 var puck_y = 210;
 
 var puck = document.getElementById('puck');
-var speed = 40
+var speed = 40;
 var gap = document.getElementById('gap');
 
 function logCoordinates(){
@@ -22,12 +22,17 @@ function logCoordinates(){
 }
 
 function checkCollision(){
-    if (puck_x >= 250 && puck_x < 350 && puck_y >= 100 && puck_y >= 250){
+    if (puck_x >= 250 && puck_x < 350 && puck_y >= 150 && puck_y < 250){
         gap.style.backgroundColor = 'red';
     }
     else{
         gap.style.backgroundColor = 'white';
     }
+}
+
+function checkteleport(){
+    if (puck_x >= -20)
+        
 }
 
 puck.style.left = puck_x + 'px';
